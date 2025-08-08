@@ -19,3 +19,4 @@ Thumbs.db
 # Ignore Streamlit logs
 .streamlit/config.toml
 .streamlit/secrets.toml
+.streamlit/secrets.toml
