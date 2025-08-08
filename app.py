@@ -16,8 +16,10 @@ from openai import OpenAI
 load_dotenv()
 
 # API keys
-openrouter_key = os.getenv("OPENROUTER_API_KEY")
-openai_key = os.getenv("OPENAI_API_KEY")
+#openrouter_key = os.getenv("OPENROUTER_API_KEY")
+#openai_key = os.getenv("OPENAI_API_KEY")
+openrouter_key = st.secrets["OPENROUTER_API_KEY"]
+openai_key = st.secrets["OPENAI_API_KEY"]
 
 
 # OpenAI client
