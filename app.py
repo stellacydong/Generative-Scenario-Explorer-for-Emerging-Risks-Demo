@@ -19,6 +19,7 @@ load_dotenv()
 openrouter_key = os.getenv("OPENROUTER_API_KEY")
 openai_key = os.getenv("OPENAI_API_KEY")
 
+
 # OpenAI client
 openai_client = OpenAI(api_key=openai_key)
 
